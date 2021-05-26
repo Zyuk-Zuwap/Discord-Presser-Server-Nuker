@@ -1,5 +1,5 @@
 @echo off
-title Presser Nuker by 7teen
+title NoLimit4Star
 :top
 cls
 node .
