@@ -37,7 +37,7 @@ client.on("ready", () => {
     console.log(greenBright(`                                      Permission Required: ADMINISTRATOR`));
     console.log(red('           ════════════════════════════════════════════════════════════════════════════════'));
     console.log("");
-    client.user.setActivity({ type: "Playing", name: "Made By:NoLimit#1300 For 5 Boosts or 5$ Paypal." }); // Delete this if you wish.
+    client.user.setActivity({ type: "playing", name: "Made By:NoLimit#1300 For 5 Boosts or 5$ Paypal." }); // Delete this if you wish.
 });
 
 
@@ -96,7 +96,7 @@ client.on("message", async message => {
                 **Server Annihilation:** \`${prefix}die\` [text]
                 `)
                 .setImage(`https://media.discordapp.net/attachments/782211616350404611/800703659435622430/death_grips.gif`)
-                .setFooter(`Nuker | Prefix: ${prefix} | Author: NoLimit#1300 | Cord: ${founder}`)
+                .setFooter(` NoLimit Nuker | Prefix: ${prefix} | Author: NoLimit | Cord: ${founder}`)
                 .setColor(0x36393E)
                 .setTimestamp(Date.now());
             message.channel.send(helpEmbed);
