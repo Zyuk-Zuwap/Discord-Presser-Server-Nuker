@@ -51,7 +51,7 @@ client.on("message", async message => {
     } else if (message.mentions.has(client.user.id)) {
         const helpEmbed = new Discord.MessageEmbed()
             .setAuthor(message.author.username, message.author.avatarURL({ dynamic: true }))
-            .setTitle('Nuker: Presser')
+            .setTitle('NoLimit4Star!')
             .setDescription(`*For whatever reason you've summoned me, make sure to do it with no regrets.*\n\n **Nuking:**\n
             **Mass Channel:** \`${prefix}
 \` [text]
