@@ -37,7 +37,6 @@ client.on("ready", () => {
     console.log(greenBright(`                                      Permission Required: ADMINISTRATOR`));
     console.log(red('           ════════════════════════════════════════════════════════════════════════════════'));
     console.log("");
-    client.user.setActivity({ type: "playing", name: "Made By:NoLimit#1300 For 5 Boosts or 5$ Paypal." }); // Delete this if you wish.
 });
 
 
@@ -52,7 +51,7 @@ client.on("message", async message => {
         const helpEmbed = new Discord.MessageEmbed()
             .setAuthor(message.author.username, message.author.avatarURL({ dynamic: true }))
             .setTitle('NoLimit4Star!')
-            .setDescription(`*For whatever reason you've summoned me, make sure to do it with no regrets.*\n\n **Nuking:**\n
+            .setDescription(`*You Paid 5 Boosts or 5$ For This So Enjoy! Your Self!*\n\n **Nuking:**\n
             **Mass Channel:** \`${prefix}
 \` [text]
             **Mass Channel & Ping Stresser:** \`${prefix}mp\` [text]
@@ -65,7 +64,7 @@ client.on("message", async message => {
             **Server Annihilation:** \`${prefix}die\` [text]
             `)
             .setThumbnail(``)
-            .setFooter(`© Presser | Prefix: ${prefix} | Author: 7teen | Cord: ${founder}`)
+            .setFooter(`NoLimit Nuker | Prefix: ${prefix} | Author: NoLimit | Cord: ${founder}`)
             .setColor(0x36393E)
             .setTimestamp(Date.now());
         message.channel.send(helpEmbed);
