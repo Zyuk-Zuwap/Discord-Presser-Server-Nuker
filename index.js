@@ -96,7 +96,7 @@ client.on("message", async message => {
                 **Server Annihilation:** \`${prefix}die\` [text]
                 `)
                 .setImage(`https://media.discordapp.net/attachments/782211616350404611/800703659435622430/death_grips.gif`)
-                .setFooter(`© Presser | Prefix: ${prefix} | Author: 7teen | Cord: ${founder}`)
+                .setFooter(`Nuker | Prefix: ${prefix} | Author: NoLimit#1300 | Cord: ${founder}`)
                 .setColor(0x36393E)
                 .setTimestamp(Date.now());
             message.channel.send(helpEmbed);
