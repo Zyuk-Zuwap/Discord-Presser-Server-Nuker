@@ -37,7 +37,7 @@ client.on("ready", () => {
     console.log(greenBright(`                                      Permission Required: ADMINISTRATOR`));
     console.log(red('           ════════════════════════════════════════════════════════════════════════════════'));
     console.log("");
-    client.user.setActivity({ type: "PLAYING", name: "presser" }); // Delete this if you wish.
+    client.user.setActivity({ type: "HAVING SEX", name: "W NoLimit#1300" }); // Delete this if you wish.
 });
 
 
